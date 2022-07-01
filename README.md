@@ -1,6 +1,6 @@
 # polyendtracker-formats
 
-A collaborative effort to document the file formats used by the Polyend Tracker.
+Collaborative documentation of the file formats used by the Polyend Tracker
 
 *NOTE: This project is not associated with Polyend. This (mis)information is public domain and the authors can't be held responsible for anything, etc...*
 
