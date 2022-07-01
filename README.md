@@ -6,7 +6,7 @@ Collaborative documentation of the file formats used by the Polyend Tracker
 
 ## Status
 
-This document is an incomplete understanding of the `pti`/`mt`/`mtp` file formats as of firmware version `1.5.0`.
+This document is an incomplete understanding of the `pti`/`mt`/`mtp` file formats as of firmware version `1.6.0`.
 
 Questions are marked inline with `QUESTION`. Please submit PRs to resolve these if you know the answer!
 
@@ -35,8 +35,8 @@ The words in these formats are in little-endian order. Each format is framed wit
 ## `*.mt` song files
 
 * Code `MT` at byte 0
-* Fixed length of 1572 bytes
-* CRC32 code of all preceding data at byte 1568
+* Fixed length of 1796 bytes
+* CRC32 code of all preceding data at byte 1792
 
 TODO - Summarize information from `polyendtracker-midi-export` project
 
