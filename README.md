@@ -39,6 +39,8 @@ The words in these formats are in little-endian order. Each format is framed wit
 * CRC32 code of all preceding data at byte 1792
 
 TODO - Summarize information from `polyendtracker-midi-export` project
+DataGreed has an excellent diagram [here](https://github.com/DataGreed/polyendtracker-midi-export/blob/main/reverse-engineering/patterns-reverse-engineering.md).
+His [parser](https://github.com/DataGreed/polyendtracker-midi-export/blob/main/polytrackermidi/parsers/patterns.py) is also a good resource.
 
 ## `*.mtp` pattern files
 
@@ -47,6 +49,7 @@ TODO - Summarize information from `polyendtracker-midi-export` project
 * CRC32 code of all preceding data at byte 6180
 
 TODO - Summarize information from `polyendtracker-midi-export` project
+Again, DataGreed has a [parser](https://github.com/DataGreed/polyendtracker-midi-export/blob/main/polytrackermidi/parsers/project.py) for this.
 
 ## `*.pti` instrument files
 
@@ -59,3 +62,9 @@ TODO - Summarize information from `polyendtracker-midi-export` project
 NOTE In some cases the sample count header field is 0, but sample data is still present.
 
 TODO - Summarize information from `pti-file-format` project
+jaap3 has a great [table](https://github.com/jaap3/pti-file-format/blob/main/pti.rst) of all of the fields.
+
+## Known changes from firmware version 1.5 to 1.6
+
+* `mt` files increased in size
+* Some unknown preamble changed in the `pti` header (probably version).
