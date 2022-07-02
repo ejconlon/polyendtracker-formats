@@ -67,6 +67,8 @@ TODO - Summarize information from `pti-file-format` project
 
 jaap3 has a great [table](https://github.com/jaap3/pti-file-format/blob/main/pti.rst) of all of the fields.
 
+There is a [parser and type definitions](https://github.com/ejconlon/scrapti/blob/master/src/Scrapti/Tracker/Pti.hs) for the format in scrapti.
+
 ## Known changes from firmware version 1.5 to 1.6
 
 * `mt` files increased in size
