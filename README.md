@@ -18,7 +18,7 @@ Big thanks to [@jaap3](https://github.com/jaap3) and [@DataGreed](https://github
 
 * [pti-file-format](https://github.com/jaap3/pti-file-format)
 * [polyendtracker-midi-export](https://github.com/DataGreed/polyendtracker-midi-export)
-* scrapti - [coming back soon]
+* [scrapti](https://github.com/ejconlon/scrapti)
 
 ## Overview
 
